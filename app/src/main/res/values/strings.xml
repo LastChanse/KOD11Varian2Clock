@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">KOD11Varian2Clock</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+    <string name="title_activity_trigonometry">TrigonometryActivity</string>
+    <string name="title_activity_vietta">ViettaActivity</string>
+    <string name="title_activity_pifagor">PifagorActivity</string>
+    <string name="title_activity_info">InfoActivity</string>
+</resources>

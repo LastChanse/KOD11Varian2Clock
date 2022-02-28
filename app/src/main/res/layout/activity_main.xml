@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.wear.widget.BoxInsetLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/box_inset_layout_padding"
+    tools:context=".MainActivity"
+    tools:deviceIds="wear">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txt_trigonomic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Тригонометрическое тождество." />
+
+            <TextView
+                android:id="@+id/txt_vietta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Формула Виетта." />
+
+            <TextView
+                android:id="@+id/txt_pifagor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Теорема Пифагора" />
+
+            <TextView
+                android:id="@+id/txt_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Настолько важная и полезная
+                 информация о которой слагают легенды, что даже самые отважные искатели
+                  истины боятся нажать на эту ссылку, ведь она ведёт в Вальгаллу." />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.wear.widget.BoxInsetLayout>
