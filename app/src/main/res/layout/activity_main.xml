@@ -33,7 +33,7 @@
                 android:id="@+id/txt_pifagor"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Теорема Пифагора" />
+                android:text="Теорема Пифагора." />
 
             <TextView
                 android:id="@+id/txt_info"

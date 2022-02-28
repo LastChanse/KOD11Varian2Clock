@@ -22,15 +22,14 @@
                 android:id="@+id/txt_vietta"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Формула Виетта." />
+                android:text="Теорема Пифагора." />
 
             <ImageView
                 android:id="@+id/img_vietta_content"
                 android:layout_width="wrap_content"
-                android:layout_height="160dp"
-                android:src="@drawable/vietta" />
+                android:layout_height="100dp"
+                android:src="@drawable/pifagor" />
 
         </LinearLayout>
     </ScrollView>
-
 </androidx.wear.widget.BoxInsetLayout>
