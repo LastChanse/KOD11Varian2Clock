@@ -25,5 +25,12 @@
             android:layout_height="wrap_content"
             android:text="sin^2 a + cos^2 a = 1" />
 
+        <Button
+            android:id="@+id/butt_back"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:background="@color/cardview_dark_background"
+            android:text="Назад"/>
+
     </LinearLayout>
 </androidx.wear.widget.BoxInsetLayout>

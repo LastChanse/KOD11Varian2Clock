@@ -29,6 +29,13 @@
                 android:layout_height="160dp"
                 android:src="@drawable/vietta" />
 
+            <Button
+                android:id="@+id/butt_back"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:background="@color/cardview_dark_background"
+                android:text="Назад"/>
+
         </LinearLayout>
     </ScrollView>
 </androidx.wear.widget.BoxInsetLayout>
